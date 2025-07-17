@@ -144,7 +144,7 @@
     display: none;
 }
 .d-flex{
-padding-left: 100px;
+padding-left: 50%;
 }
 
         .part1-left{
@@ -153,7 +153,7 @@ padding-left: 100px;
 
         .sub-body{
             width: 80%;
-            height: 80%;
+
         }
 
                 .card-img-top {
@@ -186,9 +186,9 @@ padding-left: 100px;
         }
 
                 .sub-body{
-                    width: 80%;
+                    margin: 0px auto;
             border: 1px solid black;
-             margin: 10%;
+             
               border-radius: 10px;
                color:white;
                 background-color:  black;
