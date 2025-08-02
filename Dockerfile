@@ -2,6 +2,7 @@ FROM nginx:latest
 
 WORKDIR /App
 
-COPY portfolio.html .
+COPY index.html .
 
 EXPOSE 80
+
