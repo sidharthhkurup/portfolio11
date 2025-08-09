@@ -23,7 +23,7 @@
 <body>
 
     <div class="sub-body">
-        <nav class="navbar navbar-expand-sm navbar-dark" style="border-radius: 10px; background-color: black; ">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style=" background-color: black; ">
             <div class="container-fluid">
                 <a class="navbar-brand">Sidharth Kurup</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -38,6 +38,9 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="margin-right:25px ;" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="margin-right:25px ;" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="margin-right:25px ;" href="#project">Project</a>
@@ -85,70 +88,107 @@
 
 
         </div>
+        <div id="about"></div>
         <hr>
-        <div id="about" class="container">
-            <div class="time-container" style="padding: 10% 10% 10% 0%; border: none;" data-aos="fade-up-left"
-                data-aos-duration="1500">
-                <div class=" bd-h-48">
-                    <table data-aos="fade-right" data-aos-duration="1000" style="margin: 0 auto;">
-                        <tr>
-                            <td data-aos="fade-up" data-aos-duration="1500"
-                                style="border-right: 2px solid rgb(244, 148, 30); text-align: right;">&lt;Bootstrap&gt;
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td data-aos="fade-up" data-aos-duration="1500"
-                                style="border-left: 2px solid rgb(244, 148, 30); text-align: left;">&lt;Javascript&gt;
-                            </td>
-                        </tr>
-                        <tr>
-                            <td data-aos="fade-up" data-aos-duration="1500"
-                                style="border-right: 2px solid rgb(244, 148, 30); text-align: right;">&lt;Java&gt;</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td data-aos="fade-up" data-aos-duration="1500"
-                                style="border-left: 2px solid rgb(244, 148, 30); text-align: left;">&lt;PHP&gt;
-                            </td>
-
-                        </tr>
-                        <tr>
-
-                            <td data-aos="fade-up" data-aos-duration="1500"
-                                style="border-right: 2px solid rgb(244, 148, 30); text-align: right;">&lt;MySQL&gt;
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td data-aos="fade-up" data-aos-duration="1500"
-                                style="border-left: 2px solid rgb(244, 148, 30); text-align: left;">&lt;Devops&gt;
-                            </td>
-
-                        </tr>
-                    </table>
-
-                </div>
+        <div class="about-container">
+            <h1>About</h1>
+            <div class="content" data-aos="fade-up-left" data-aos-duration="1500">
+                <p>I have a deep interest in Web Development, focusing on HTML, CSS, Bootstrap, and PHP to create
+                    responsive and functional websites.</p>
+                <p>In terms of databases, I specialize in MySQL, managing and optimizing databases to ensure smooth
+                    data
+                    handling and retrieval.</p>
+                <p>As for DevOps, I work with tools like Docker and Jenkins to streamline the development process
+                    and
+                    automate continuous integration and deployment.</p>
             </div>
-            <div class="about-container" data-aos="fade-up-left" data-aos-duration="1500">
-                <h1>About</h1>
-                <div class="content">
-                    <p>I have a deep interest in Web Development, focusing on HTML, CSS, Bootstrap, and PHP to create
-                        responsive and functional websites.</p>
-                    <p>In terms of databases, I specialize in MySQL, managing and optimizing databases to ensure smooth
-                        data
-                        handling and retrieval.</p>
-                    <p>As for DevOps, I work with tools like Docker and Jenkins to streamline the development process
-                        and
-                        automate continuous integration and deployment.</p>
+        </div>
+        <div id="skills"></div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h1>Skills</h1>
+            <div class="time-container skills" style="padding: 0% 10% 0% 0%; border: none;">
+                <h5>Web Development</h5>
+                <div class="row">
+                    <div class="col-sm-3" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Bootstrap</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>JavaScript</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>PHP</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>JAVA</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Database Management</h5>
+                <div class="row">
+                    <div class="col-sm-3" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>MySQL</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h5>Tools & Platforms</h5>
+                <div class="row">
+                    <div class="col-sm-3" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Docker</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Jenkins</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Kubernetes</h6>
+                                <p class="card-text"> </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div id="project"></div>
+        <br>
         <hr>
-        <div id="project" style="margin-top: 20px;">
+        <div style="margin-top: 20px;">
             <h1>Projects</h1>
             <br>
             <div class="card-container">
@@ -157,10 +197,14 @@
                     <img class="card-img-top" src="west-new.png" alt="Card image">
                     <div class="card-body">
                         <h4 class="card-title">Westside</h4>
-                        <p class="card-text">Westside is a popular retail brand in India, owned by the Tata Group under
+                        <p class="card-text">Westside is a popular retail brand in India, owned by the Tata Group
+                            under
                             Trent Limited.</p>
                         <a href=" https://sidharthhkurup.github.io/westside-new/"
                             class="btn btn-primary button-cont">Visit</a>
+                        <a href="https://github.com/sidharthhkurup/westside-new"
+                            class="btn btn-primary button-cont">Source Code
+                        </a>
                     </div>
                 </div>
                 <div class=" card" style="width:400px" data-aos="fade-left" data-aos-duration="3000">
@@ -168,75 +212,79 @@
                     <div class="card-body">
                         <h4 class="card-title">tufo</h4>
                         <p class="card-text">Empowering Payroll process with the world's first AI platform.</p>
-                        <a href="https://sidharthhkurup.github.io/web-page1/" class="btn btn-primary button-cont" ">Visit</a>
+                        <a href="https://sidharthhkurup.github.io/web-page1/"
+                            class="btn btn-primary button-cont">Visit</a>
+                        <a href="https://github.com/sidharthhkurup/web-page1" class="btn btn-primary button-cont">Source
+                            Code
+                        </a>
                     </div>
                 </div>
                 <div class=" card" style="width:400px">
-                            <img class="card-img-top" src="kafh.png" alt="Card image" data-aos="fade-left"
-                                data-aos-duration="3000">
-                            <div class="card-body">
-                                <h4 class="card-title">Kafh Login Page</h4>
-                                <p class="card-text">A Login page with Simple CSS Animation,</p>
-                                <a href="https://sidharthhkurup.github.io/Test/"
-                                    class="btn btn-primary button-cont">Visit</a>
-                            </div>
+                    <img class="card-img-top" src="kafh.png" alt="Card image" data-aos="fade-left"
+                        data-aos-duration="3000">
+                    <div class="card-body">
+                        <h4 class="card-title">Kafh Login Page</h4>
+                        <p class="card-text">A Login page with Simple CSS Animation,</p>
+                        <a href="https://sidharthhkurup.github.io/Test/" class="btn btn-primary button-cont">Visit</a>
+                        <a href="https://github.com/sidharthhkurup/Test" class="btn btn-primary button-cont">Source
+                            Code
+                        </a>
                     </div>
-
-                </div>
-            </div>
-            <br>
-            <hr>
-            <h1 style="padding-top: 10px;">Contact</h1>
-            <div class="contact" id="contact">
-
-
-                <div class="contact-item">
-                    <i class="fas fa-phone-alt"></i>
-                    <a href="tel:+918547736405">+91 8547736405</a>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:ABC@gmail.com">sidharthhkurup11@gmail.com</a>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fab fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fab fa-instagram"></i>
-                    <span>@programmer</span>
-                </div>
-
-                <div class="contact-item">
-                    <i class="fab fa-whatsapp"></i>
-                    <a href="tel:+918547966405">+91 8547966405</a>
-                </div>
-                <div class="contact-item">
-                    <i class="fab fa-github"></i>
-                    <a href="https://github.com/sidharthhkurup" target="_blank" title="GitHub">
-                        sidharthhkurup
-                    </a>
                 </div>
 
             </div>
-            <footer class="bg-dark text-white py-4 mt-5">
-                <div class="container d-flex justify-content-center align-items-center flex-column"
-                    style="padding:0% 5% 0% 5%;">
-                    <p class="mb-0 text-center">Thank you for visiting my site! We appreciate your time.</p>
-                </div>
-            </footer>
+        </div>
+        <br>
+        <hr id="contact">
+        <h1 style="padding-top: 10px;">Contact</h1>
+        <div class="contact">
+
+            <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+918547736405" title="Call Me">+91 85477 36405</a>
+            </div>
+
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:sidharthhkurup11@gmail.com" title="Email Me">sidharthhkurup11@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/sidharth-h-kurup-29a02b32a" target="_blank"
+                    title="LinkedIn Profile">
+                    Connect on LinkedIn
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/918547966405" target="_blank" title="Chat on WhatsApp">Chat on WhatsApp</a>
+            </div>
+
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/sidharthhkurup" target="_blank" title="GitHub Profile">
+                    View My GitHub
+                </a>
+            </div>
 
         </div>
+        <footer class="bg-dark text-white py-4 mt-5">
+            <div class="container d-flex justify-content-center align-items-center flex-column"
+                style="padding:0% 5% 0% 5%;">
+                <p class="mb-0 text-center">Thank you for exploring my tech stack — always learning, always building.
+                </p>
+            </div>
+        </footer>
 
-        <script src=" https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    </div>
+
+    <script src=" https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
 </html>
-
