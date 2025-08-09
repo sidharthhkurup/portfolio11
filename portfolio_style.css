@@ -103,16 +103,22 @@
         }
 
 
-        .about-container,
-        .time-container {
+        .about-container {
             color: white;
             border: 1px solid rgb(244, 148, 30);
             padding: 30px;
-            width: 50%;
+            width: 70%;
             margin: 50px auto;
             border-radius: 10px;
+        }
 
-
+                .time-container {
+            color: white;
+            border: 1px solid rgb(244, 148, 30);
+            padding: 30px;
+            width: 70%;
+              margin: 50px auto;
+            border-radius: 10px;
         }
 
 
@@ -121,14 +127,14 @@
             margin-bottom: 20px;
         }
 
-        .sub-body{
-            border: 1px solid black;
+         .sub-body{
+            /* border: 1px solid black;
              margin: 30px;
-              border-radius: 10px;
+              border-radius: 10px; */
                color:white;
                 background-color:  black;
-                 box-shadow: 10px 10px 5px 12px rgb(141, 156, 171);
-        }
+                 /* box-shadow: 10px 10px 5px 12px rgb(141, 156, 171); */
+        } 
 
 
         hr {
@@ -138,6 +144,9 @@
             width: 70%;
             margin: 0 auto;
 
+        }
+        h5{
+            padding-top:20px ;
         }
 
         .content {
@@ -173,10 +182,7 @@ padding-right: 50%;
             font-size: 20px;
         }
 
-        .sub-body{
-            width: 80%;
 
-        }
 
                 .card-img-top {
             height: 200px;
@@ -198,40 +204,3 @@ padding-right: 50%;
             justify-content: center;
         }
 
-                .about-container1,.time-container {
-            color: white;
-            border: 1px solid rgb(244, 148, 30);
-            padding: 30px;
-            width: 80%;
-            margin: 50px auto;
-            border-radius: 10px;
-        }
-
-                .sub-body{
-                    margin: 0px auto;
-            border: 1px solid black;
-             
-              border-radius: 10px;
-               color:white;
-                background-color:  black;
-                 box-shadow: none;
-        }
-
-        }
-
-         @media screen and (max-width : 360px){
-            .sub-body{
-                margin-right: 0px;
-                width: 100%;
-                margin: 0px;
-                padding-right: 10%;
-                border-radius: 0px;
-            }
-            .time-container{
-                display: none;
-            }
-
-            .about-container{
-                font-size: medium;
-            }
-         }
